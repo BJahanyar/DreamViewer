@@ -1,0 +1,11 @@
+a:visited {
+	color: red;
+}
+.mycls1::after {
+	content: 'i3center';
+	color: green;
+	background-color: yellow;
+}
+.mycls2 input:focus {
+	background-color: aqua ;
+}

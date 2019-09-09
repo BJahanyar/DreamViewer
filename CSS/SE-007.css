@@ -1,0 +1,35 @@
+@charset "utf-8";
+.blkdiv{
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.cls1{
+	background: #A221D3 ;
+}
+.cls2{
+	background: #DDDC0F ;
+}
+.cls3{
+	background: #1B8E44 ;
+}
+.cls4{
+	background: #F58302 ;
+}
+.group{
+	width: 600px;
+}
+.cls5 {
+	background: #FCFCFC;
+	position: absolute ;
+	top: 150px;
+	left:150px;
+	right:150px;
+	bottom: 150px;
+}
+
+
+
+	<button type="submit" class="registersend">SEND</button>
+	<button type="submit" class="registercancel">Cancle</button>
+	
