@@ -1,0 +1,40 @@
+@charset "utf-8";
+.mycls01 {
+	color: aqua ;
+	background-color: darkblue;
+	font-size: 18 ;
+	direction: rtl ;
+	font-weight: bold ;
+}/* CSS Document */
+
+.mycls02 {
+	color:darkkhaki;
+	background-color:darkgreen;
+	font-size: 22 ;
+	font-style: italic ;
+}
+
+.mycls03 input:focus {
+	background-color: aqua ;
+}
+
+.mycls04 tr:nth-child(even) {
+	background-color: darkgoldenrod ;
+}
+
+.mycls05 tr:hover {
+	background-color: fuchsia ;
+}
+
+.mycls06 {
+	border: 2px solid black;
+	border-collapse:collapse;
+	text-align: center; 
+	vertical-align: bottom;
+	padding: 60px ;			
+}
+.mycls06 td{
+	padding: 20px;
+	border: 2px solid black;
+	border-collapse:collapse;
+}
