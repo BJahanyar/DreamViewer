@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exercise007</title>
+	<style>
+		.all{
+			float: left;
+			width: 300px;
+			height: 300px;
+		}
+		
+		.group{
+			width: 900px;
+		}
+		
+		.d10{
+			position: absolute;
+			width: 150px;
+			height: 150px;
+			top: 225PX;
+			left: 225px;
+			border-style: solid;
+		}
+		.d11{
+			position: absolute;
+			width: 150px;
+			height: 150px;
+			top: 525PX;
+			left: 525px;
+			border:solid;
+		}
+		input [type=text], input [type=password] , input[type=submit]{
+			margin: 5px 0 22px 0;
+  			background: #f1f1f1;
+			text-align: right;
+		}
+		input[type=text]:focus, input[type=password]:focus {
+ 			 background-color: burlywood ;
+		}
+		table,td {
+                border: 2px solid white;
+                border-collapse:collapse;
+				margin: 20px;
+                }
+                td {
+                padding: 20px;
+                }
+		
+	</style>
+</head>
+
+<body>
+		<div class="group">
+			<div class="all" style="background:#7B7575"></div>
+			<div class="all" style="background:#FF0004" >
+				<table>
+				<tr>
+					<td rowspan ="1" colspan="3"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td rowspan="2" colspan="2"></td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+					<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				</table></div>
+			<div class="all" style="background:#840568" >
+				نام: <input type="text" name="fname" placeholder="نام خود را وارد نمایید">
+				نام خانوداگی: <input type="text" name="Lname" placeholder="نام خانوادگی خود را وارد نمایید">
+				رمزعبور: <input type="Password" name="pass" >
+				<input type="submit" value="SEND">
+				<input type="submit" value="Cancle">
+			</div>
+		<div/>
+		<div class="group">
+			<div class="all" style="background:#91FF00" ></div>
+			<div class="all" style="background:#00FFBB" ></div>
+			<div class="all" style="background:#0054FF" >
+				<ul style="font-size: 40px; color:aliceblue; margin: 10px">
+					<li> HTML </li>
+					<li> CSS </li>
+					<li> JQuery </li>
+				</ul>
+			</div>
+		</div>
+		<div class="group">
+			<div class="all" style="background:#FF4700" ></div>
+			<div class="all" style="background:#984F88" ></div>
+			<div class="all" style="background:#FFBE00" ></div>
+		</div>
+			<div class=" d10" style="background:#FFFFFF"></div>
+			<div class="d11" style="background:#FFFFFF" ></div>
+</body>
+</html>
