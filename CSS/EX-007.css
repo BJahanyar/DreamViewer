@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+.all{
+			float: left;
+			width: 300px;
+			height: 300px;
+		}
+		
+		.group{
+			width: 900px;
+		}
+		
+		.d10{
+			position: absolute;
+			width: 150px;
+			height: 150px;
+			top: 225PX;
+			left: 225px;
+		}
+		.d11{
+			position: absolute;
+			width: 150px;
+			height: 150px;
+			top: 525PX;
+			left: 525px;
+}
+
+		.d12{
+			position: absolute;
+			width: 150px;
+			height: 150px;
+			top: 525PX;
+			left: 225px;
+		}
+		.ul{
+			font-size: 40px;
+			color:aliceblue;
+			margin: 10px;
+			list-style-image: url("Image/check.png");
+}
+		input [type=text], input [type=password] , input[type=submit]{
+			margin: 5px 0 22px 0;
+  			background: #f1f1f1;
+			text-align: right;
+		}
+		input[type=text]:focus, input[type=password]:focus {
+ 			 background-color: burlywood ;
+		}
+		table,td {
+                border: 2px solid white;
+                border-collapse:collapse;
+				margin: 20px;
+                }
+                td {
+                padding: 20px;
+                }
