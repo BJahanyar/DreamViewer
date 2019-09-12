@@ -2,8 +2,6 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="../Custorug/CSS/Loginstyle.css">
-
 	<style>
 		body{
 			margin: 0px;
@@ -53,13 +51,19 @@
 		.nav3 {
 			text-decoration: none;
 			text-align: center;
-			padding: 30px 0px;
+			padding: 35px 0px;
 			color:#FFFFFF;
-			background-color: #4CAF50;
-			width: 140px;
+			background-color:rgba(19,146,38,1.00);
+			width: 144px;
 			float: left;
 			position: relative;
 			
+		}
+		.footerdiv {
+			position: relative;
+			width: 850px;
+			float: left;
+			padding-top: 20px;
 		}
 		.footerdiv  a {
 			color: #878181;
@@ -72,77 +76,139 @@
 			position: relative;
 			float: left;
 			width: 980px;
-			height: 500px;
-			background: #E3DDDD;
+			height: 700px;
+			background:rgba(225,225,225,1.00);
+		}
+		.container {
+			padding-top: 15px;
+			padding-left: 80px;
+			padding-right: 80px;
+			padding-bottom: 20px;
+			background-color: white;
+			width: 50%;
+			margin: auto;
+		}
+		.regform{
+			background: green;
+			width: 630px;
+			text-align: center;
+			padding: 10px;
+			margin: 0px;
+			color: white;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+		input[type=text], input[type=password] {
+			width: 100%;
+			padding: 10px;
+			margin: 5px 0 22px 0;
+		}
+
+		input[type=text]:focus, input[type=password]:focus {
+			background-color:#C8B9B9;
+		}
+		input[type=textarea] {
+			width: 50%;
+			padding: 8px;
+		}
+		.registersend {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			opacity: 0.9;
+			border: none;
+		}
+
+		.registersend:hover {
+			opacity: 1;
+		}
+		.registercancel {
+			padding: 12px 20px;
+			border: none;
+		}
+
+		a {
+			color: dodgerblue;
+		}
+		.signin{
+			text-align: center;
+			background-color:rgba(217,212,212,1.00);
+			width: 50%;
+			margin: auto;
+			padding: 4px 80px;
+			margin-bottom: 30px;
 		}
 	</style>
 </head>
 
 <body>
 	<div class="main">
-			<div style="float: left">  <img alt="CustoRugs" src="../Custorug/HTML/image/custorug.jpg" >  </div>
-			<div class="nav1"><i>CustoRugs</i></div>
-			<div class="nav2"> 
-				<ul class="menu">
-					<li><a href="#"> Home </a></li>
-					<li><a href="#"> About us </a></li>
-					<li><a href="#"> Order </a></li>
-					<li><a href="#"> Contact us </a></li>
-				</ul>
-			</div>
-			<div style="float: left; padding-top:20px; padding-right: 20px"> <img alt="Search" src="../Custorug/HTML/image/search.png"> </div>
-			<div> <a  class="nav3" href="#"> Order Now </a> </div>
+		<div style="float: left">  <img alt="CustoRugs" src="../Custorug/HTML/image/custorug.jpg" >  </div>
+		<div class="nav1"><i>CustoRugs</i></div>
+		<div class="nav2"> 
+			<ul class="menu">
+				<li><a href="#"> Home </a></li>
+				<li><a href="#"> About us </a></li>
+				<li><a href="#"> Order </a></li>
+				<li><a href="#"> Contact us </a></li>
+			</ul>
+		</div>
+		<div style="float: left; padding-top:20px; padding-right: 20px"> <img alt="Search" src="../Custorug/HTML/image/search.png"> </div>
+		<div> <a  class="nav3" href="#"> Order Now </a> </div>
 		
-		<div class="content" >
-			<form action="/action_page.php">
-	
-  <div class="container">
-    <h1>Register Form</h1> 
-	  <div class="input-field" >
-		  <label for="email"><b>PHONE/EMAIL</b> </label>
-		  <i class="fa fa-user icon"></i> 
-		  <input type="text"   placeholder="	PHONE/EMAIL" name="email" required>
-	  </div>
-    
-	  
-    
-    <label for="psw"><b>PASSWORD</b></label>
-    <input type="password" placeholder="	ENTER YOUR PASSWORD" name="psw" required>
-    <label for="psw-repeat"><b>REPEAT PASSWORD</b></label>
-    <input type="password" name="psw-repeat" required>
-    <p>
-		<img src="asrerisk.png" width="10px" height="10px" alt="setare" >
-		Pleas enter the characters you see in the image in the box : 
-		<img src="green-arrows-set-vector-1103885.jpg" width="30px" height="30px" alt="felesh" >
-	  </p>  
-  </div>
-	 
-	
-	<button type="submit" class="registersend">SEND</button>
-	<button type="submit" class="registercancel">Cancle</button>
-	
-  <div class="container signin">
-    <p>I've registered <a href="#">Login</a>.</p>
-  </div>
-	
-</form>	
+	<div class="content" >
+	<form style="margin-top: 50px" >
+		<h1 class="regform">Register Form</h1> 
+	<div class="container">
+		
+  			<label for="email"><b>PHONE/EMAIL</b> </label>
+  			<input type="text"   placeholder="	PHONE/EMAIL" name="email" required>
+		
+			<label for="psw"><b>PASSWORD</b></label>
+			<input type="password" placeholder="	ENTER YOUR PASSWORD" name="psw" required>
+		
+			<label for="psw-repeat"><b>REPEAT PASSWORD</b></label>
+			<input style="margin-bottom: 0px" type="password" name="psw-repeat" required>
+		<p >
+			<img src="../Custorug/HTML/image/asrerisk.png" width="10px" height="10px" alt="setare" >
+			Pleas enter the characters you see in the image in the box : 
+			<input style="width: 50% " type="text" name="recode" required>
+			<input style="width: 30% " type="text" name="code" varequired>
+			<img src="../Custorug/HTML/image/green-arrows-set-vector-1103885.jpg" width="30px" height="30px" alt="felesh" >
+		</p> 
+		<div style="margin-left: 60%">
+			<button type="submit" class="registersend">SEND</button>
+			<button type="submit" class="registercancel">Cancle</button>
 		</div>
 		
+	</div>
+	<div class="signin">
+		<p>I've registered <a href="#">Login</a>.</p>
+	</div>
+		
+	</form>	
+		<hr style="border: 1px solid rgba(160,157,157,1.00);">
 		<div class="footerdiv">
-			<a href="#Order">Order</a>
-			<a href="#Gallery">Gallery</a>
-			<a href="#Download Catalog">Download Catalog</a>
-			<a href="#About Carpet">About Carpet</a>
-			<a href="#FAQ">FAQ</a>
-			<a href="#Site Map">Site Map</a>
-			<a href="#Terms And Condition">Terms And Condition</a>
-		</div>
-		<div style="float: right">
-			<a href="#"> </a><img alt="Li" src="../Custorug/HTML/image/in.png"> <a/>
-			<a href="#"><img alt="fc" src="../Custorug/HTML/image/facebook.png"> <a/>
-			<a href="#"><img alt="TW" src="../Custorug/HTML/image/twitter.png"> <a/>
-			<a href="#"><img alt="ins" src="../Custorug/HTML/image/instagram-512.png"> <a/>
-		</div>
+		<a href="#Order">Order</a>
+		<a href="#Gallery">Gallery</a>
+		<a href="#Download Catalog">Download Catalog</a>
+		<a href="#About Carpet">About Carpet</a>
+		<a href="#FAQ">FAQ</a>
+		<a href="#Site Map">Site Map</a>
+		<a href="#Terms And Condition">Terms And Condition</a>
+	</div>
+	<div style="float: right; padding-top:15px; width: 130px">
+		<a href="#"> </a><img alt="Li" src="../Custorug/HTML/image/in.png"> <a/>
+		<a href="#"><img alt="fc" src="../Custorug/HTML/image/facebook.png"> <a/>
+		<a href="#"><img alt="TW" src="../Custorug/HTML/image/twitter.png"> <a/>
+		<a href="#"><img alt="ins" src="../Custorug/HTML/image/instagram.png"> <a/>
+	</div>
+	</div>
+		
+		
+		
+	
 	
 		
 	</div>
