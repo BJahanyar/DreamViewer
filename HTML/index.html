@@ -2,14 +2,16 @@
 <html>
 <head>
 <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../Custorug/CSS/Loginstyle.css">
+
 	<style>
 		body{
 			margin: 0px;
 			padding: 0px;
-			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 			font-size: 17px; 
 		}
-		.maindiv{
+		.main{
 			position: relative;
 			margin-left: auto;
 			margin-right: auto;
@@ -19,18 +21,14 @@
 		.nav1 {
 			position: relative;
 			float: left;
-			background:#D05759;
-			width: 180px;
-		}
-		.custofont{
-			font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'; 
-			font-size: 20px; 
-			padding-bottom: 15px; 
+			width: 110px;
+			padding: 30px 0px;
+			font-size: 25px;
 		}
 		.nav2 {
 			position: relative;
 			float: left;
-			width: 620px;
+			width: 600px;
 			text-align: center;
 		}
 		.navbar ul{
@@ -54,43 +52,36 @@
 		}
 		.nav3 {
 			text-decoration: none;
-			background-color: #4CAF50;
+			text-align: center;
+			padding: 30px 0px;
 			color:#FFFFFF;
-			width: 180px;
-			height:80px;
+			background-color: #4CAF50;
+			width: 140px;
 			float: left;
 			position: relative;
+			
 		}
-		.footerdiv {
-			padding: 20px;
-			width: 980px;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
 		.footerdiv  a {
 			color: #878181;
 			text-align: center;
-			padding: 14px 16px;
+			padding: 14px 14px;
 			text-decoration: none;
 			font-size: 17px;
 		}
 		.content{
-			background: #D3CDCD;
 			position: relative;
 			float: left;
 			width: 980px;
-			height: 400px;
+			height: 500px;
+			background: #E3DDDD;
 		}
 	</style>
 </head>
 
 <body>
-	<div class="maindiv">
-			<div class="nav1">
-				<img alt="CustoRugs" src="../Custorug/HTML/image/custorug.jpg" > 
-					 <i class="custofont">CustoRugs</i>
-			</div>
+	<div class="main">
+			<div style="float: left">  <img alt="CustoRugs" src="../Custorug/HTML/image/custorug.jpg" >  </div>
+			<div class="nav1"><i>CustoRugs</i></div>
 			<div class="nav2"> 
 				<ul class="menu">
 					<li><a href="#"> Home </a></li>
@@ -99,11 +90,42 @@
 					<li><a href="#"> Contact us </a></li>
 				</ul>
 			</div>
-			<div> <a  class="nav3" href="#"> Order now </a> </div>
+			<div style="float: left; padding-top:20px; padding-right: 20px"> <img alt="Search" src="../Custorug/HTML/image/search.png"> </div>
+			<div> <a  class="nav3" href="#"> Order Now </a> </div>
 		
-		<div class="content">
-			<form>
-			</form>
+		<div class="content" >
+			<form action="/action_page.php">
+	
+  <div class="container">
+    <h1>Register Form</h1> 
+	  <div class="input-field" >
+		  <label for="email"><b>PHONE/EMAIL</b> </label>
+		  <i class="fa fa-user icon"></i> 
+		  <input type="text"   placeholder="	PHONE/EMAIL" name="email" required>
+	  </div>
+    
+	  
+    
+    <label for="psw"><b>PASSWORD</b></label>
+    <input type="password" placeholder="	ENTER YOUR PASSWORD" name="psw" required>
+    <label for="psw-repeat"><b>REPEAT PASSWORD</b></label>
+    <input type="password" name="psw-repeat" required>
+    <p>
+		<img src="asrerisk.png" width="10px" height="10px" alt="setare" >
+		Pleas enter the characters you see in the image in the box : 
+		<img src="green-arrows-set-vector-1103885.jpg" width="30px" height="30px" alt="felesh" >
+	  </p>  
+  </div>
+	 
+	
+	<button type="submit" class="registersend">SEND</button>
+	<button type="submit" class="registercancel">Cancle</button>
+	
+  <div class="container signin">
+    <p>I've registered <a href="#">Login</a>.</p>
+  </div>
+	
+</form>	
 		</div>
 		
 		<div class="footerdiv">
@@ -115,6 +137,13 @@
 			<a href="#Site Map">Site Map</a>
 			<a href="#Terms And Condition">Terms And Condition</a>
 		</div>
+		<div style="float: right">
+			<a href="#"> </a><img alt="Li" src="../Custorug/HTML/image/in.png"> <a/>
+			<a href="#"><img alt="fc" src="../Custorug/HTML/image/facebook.png"> <a/>
+			<a href="#"><img alt="TW" src="../Custorug/HTML/image/twitter.png"> <a/>
+			<a href="#"><img alt="ins" src="../Custorug/HTML/image/instagram-512.png"> <a/>
+		</div>
+	
 		
 	</div>
 </body>
