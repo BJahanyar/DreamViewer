@@ -5,23 +5,26 @@ body{
 			font-size: 17px; 
 		}
 		.main{
+			margin-top: 1%;
+			float: left;
 			position: relative;
 			margin-left: auto;
 			margin-right: auto;
-			width: 980px;
+			padding-left: 0px !important;
+			padding-right: 0px !important;
 		}
 		
 		.nav1 {
+			width: 25%;
 			position: relative;
 			float: left;
-			width: 110px;
-			padding: 30px 0px;
 			font-size: 25px;
+			text-align: right;
 		}
 		.nav2 {
+			width: 50%;
 			position: relative;
 			float: left;
-			width: 600px;
 			text-align: center;
 		}
 		.navbar ul{
@@ -43,19 +46,18 @@ body{
 		.nav2 li:hover>a{
 			background:rgba(231,223,223,1.00);		}
 		.nav3 {
+			width: 10%;
 			text-decoration: none;
 			text-align: center;
 			padding: 35px 0px;
 			color:#FFFFFF;
 			background-color:rgba(19,146,38,1.00);
-			width: 143px;
 			float: left;
 			position: relative;
 			
 		}
 		.footerdiv {
 			position: relative;
-			width: 850px;
 			float: left;
 			padding-top: 20px;
 		}
@@ -69,28 +71,27 @@ body{
 		.content{
 			position: relative;
 			float: left;
-			width: 980px;
-			height: 700px;
+			height: 800px;
 			background:rgba(225,225,225,1.00);
 		}
-		.container {
+		.conta {
 			padding-top: 15px;
 			padding-left: 80px;
 			padding-right: 80px;
 			padding-bottom: 20px;
 			background-color: white;
-			width: 50%;
+			width: 40% !important;
 			margin: auto;
 		}
 		.regform{
 			background: green;
-			width: 630px;
 			text-align: center;
 			padding: 10px;
 			margin: 0px;
 			color: white;
 			margin-left: auto;
 			margin-right: auto;
+			width: 40% !important;
 			
 		}
 		input[type=text], input[type=password] {
@@ -127,6 +128,6 @@ body{
 			background-color:rgba(217,212,212,1.00);
 			width: 50%;
 			margin: auto;
-			padding: 4px 80px;
-			margin-bottom: 30px;
+			padding: 14px 80px;
+			float: left;-bottom: 30px;
 		}
