@@ -1,24 +1,27 @@
 body{
-			margin: 0px;
-			padding: 0px;
+			margin: 0%;
+			padding: 0%;
 			font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-			font-size: 17px; 
+			font-size: 17; 
 		}
+			* {
+			  box-sizing: border-box;
+			}	
 		.main{
 			margin-top: 1%;
 			float: left;
 			position: relative;
 			margin-left: auto;
 			margin-right: auto;
-			padding-left: 0px !important;
-			padding-right: 0px !important;
+			padding-left: 0% !important;
+			padding-right: 0% !important;
 		}
 		
 		.nav1 {
 			width: 25%;
 			position: relative;
 			float: left;
-			font-size: 25px;
+			font-size: 25;
 			text-align: right;
 			margin-left: 5%;
 			
@@ -31,8 +34,8 @@ body{
 		}
 		.navbar ul{
 			list-style: none;
-			padding: 0px;
-			margin: 0px;
+			padding: 0%;
+			margin: 0%;
 		}
 		.menu>li{
 			display: inline-block;
@@ -42,8 +45,8 @@ body{
 			text-decoration: none;
 			color: black;
 			display: inline-block;
-			min-width: 90px;
-			padding: 10px 0px;
+			width: 90px;
+			padding: 6% 0%;
 			text-align: center;
 		}
 		.nav2 li:hover>a{
@@ -52,7 +55,7 @@ body{
 		.nav3 {
 			text-decoration: none;
 			text-align: center;
-			padding: 30px 0px;
+			padding: 2% 0%;
 			color:#FFFFFF;
 			background-color:rgba(19,146,38,1.00);
 			width: 10%;
@@ -84,12 +87,12 @@ body{
 			position: relative;
 			float: left;
 			height: 800px;
-			background:rgba(225,225,225,1.00);
+			background: #EBE1E1;
 		}
 		.conta {
 			padding-top: 15px;
-			padding-left: 10% !important;
-			padding-right: 10% !important;
+			padding-left: 7% !important;
+			padding-right: 7% !important;
 			padding-bottom: 20px;
 			background-color: white;
 			width: 50% !important;
@@ -106,19 +109,6 @@ body{
 			width: 50% !important;
 			
 		}
-		input[type=text], input[type=password] {
-			width: 100%;
-			padding: 10px;
-			margin: 5px 0 22px 0;
-		}
-
-		input[type=text]:focus, input[type=password]:focus {
-			background-color: rgba(240,234,234,1.00);
-		}
-		input[type=textarea] {
-			width: 50%;
-			padding: 8px;
-		}
 		.registersend {
 			background-color: #4CAF50;
 			color: white;
@@ -126,20 +116,17 @@ body{
 			opacity: 0.9;
 			border: none;
 		}
-
-		.registersend:hover {
-			opacity: 1;
-		}
-		.registercancel {
-			padding: 12px 16px;
-			border: none;
-		}
-
 		.signin{
 			text-align: center;
 			background-color:rgba(217,212,212,1.00);
 			margin: auto;
-			padding: 14px 80px;
-			
+			padding: 8px 80px;
 			width: 50% !important;
 		}
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
