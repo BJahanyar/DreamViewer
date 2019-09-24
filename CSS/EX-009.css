@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size: 13.5px;
+	background: url(images-EX009/tooplate_body.jpg");
+	margin: 0px;
+}
+.main{
+	width: 968px;
+	padding:0px 6px;
+	margin: 0px auto;
+	background: red;
+}
