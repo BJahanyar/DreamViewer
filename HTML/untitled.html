@@ -13,6 +13,140 @@
 			padding:0px 6px;
 			margin: 0px auto;
 		}
+		.header{
+		width: 968px;
+		height: 100px;
+		position: relative;
+		float: left;
+		background: url("../CSS/images-EX009/tooplate_header.png")no-repeat center bottom;
+			
+		}
+		.logo{
+		position: relative;
+		float: left;
+		width: 184px;
+		background: url('../CSS/images-EX009/tooplate_logo.png') no-repeat center center;
+		height: 100px;
+		margin-left: 40px;
+		}
+		.menu{
+			position: relative;
+			float: right;
+			text-align: right;
+			width: 744px;
+			height: 100px;
+		}
+		.menu ul{
+			list-style: none;
+			margin: 40px 20px 0px 0px;
+		}
+		.menu li{
+			display: inline;
+		}
+		.menu a{
+			color: white;
+			text-decoration: none;
+			width: 100px;
+			height: 30px;
+			font-size: 15px;
+			line-height: 25px;
+			display: inline-block;
+			text-align: center;
+			margin: 10px;
+		}
+		.menu a:hover, .active{
+			background: url("../CSS/images-EX009/tooplate_menu.png") no-repeat center center;
+			color: rgba(70,70,70,1.00) !important;
+		}
+		.group{
+			position: relative;
+			float: left;
+			width: 968px;
+			background: url("../CSS/images-EX009/tooplate_main.png") repeat-y;
+		}
+		.slide{
+			position: relative;
+			float: left;
+			width: 940px;
+			height: 300px;
+			margin: 0px 15px;
+			background: url("../CSS/images-EX009/tooplate_middle.png") no-repeat center center;
+		}
+		.st1{
+			position: relative;
+			float: left;
+			width: 220px;
+			height: 140px;
+			margin: 75px 45px;
+		}
+		.st1 h1{
+			color: #fc8927;
+			padding-left: 13px;
+		}
+		.st1 p{
+			color: white;
+			padding: 13px;
+		}
+		.st2{
+			position: relative;
+			float: left;
+			width: 220px;
+			height: 140px;
+			margin: 75px 15px;
+		}
+		.st2 h1{
+			color: #fc8927;
+			padding-left: 13px;
+		}
+		.st2 p{
+			color: white;
+			padding: 13px;
+		}
+		.st3{
+			position: relative;
+			float: left;
+			width: 220px;
+			height: 140px;
+			margin: 45px 80px;
+		}
+		.st3 h1{
+			color: white;
+			line-height: 10px;
+		}
+		.st3 h2{
+			color: white;
+			line-height: 10px;
+		}
+		.st3 p{
+			color: black;
+			padding: 13px;
+			text-align: justify;
+		}
+		.btn{
+			width: 242px;
+			height: 50px;
+			background: url("../CSS/images-EX009/tooplate_learn_here_btn.png") no-repeat;
+		}
+		.btn a{
+			text-decoration: none;
+			color:rgba(46,46,46,1.00);
+			font-size: 30px;
+			margin: 20px 48px;
+		}
+		.btn a:hover{
+			color:  #fc8927;
+		}
+		.box1{
+			position: relative;
+			float: left;
+			width: 322px;
+			padding: 10px 25px;
+		}
+		.box1 img{
+			display: block;
+			float: left;
+		}
+		
 	</style>
 </head>
 
@@ -20,9 +154,50 @@
 	<div class="main">
 		<div class="header">
 			<div class="logo"></div>
-			<div clas="menu"></div>
+			<div class="menu">
+				<ul>
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Aboute Us</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="group"></div>
+		<div class="group">
+			<div class="slide">
+				<div class="st1"> 
+					<h1>Step1</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+				</div>
+				<div class="st2"> 
+					<h1>Step2</h1>
+					<p>
+						Donec felis elit, pellentesque eu lobortis eu, volutpat ut nisi.
+					</p>
+				</div>
+				<div class="st3"> 
+					<h2>Best Solutio </h2>
+					<h1>for Your Business </h1>
+					<p>
+						Curabitur mattis, est id ultricies iaculis, nulla odio ornare est, vel tristique velit sapien et nulla. Aenean id enim urna.
+					</p>
+					<div class="btn">
+						<a href="#"> Learn Here</a>
+					</div>
+				</div>
+			</div>
+			<div class="box1">
+				<h1>Intoduction</h1>
+				<img alt="" title="" src="../CSS/images-EX009/onebit_08.png">
+				<p>
+					Service Box is a free website template for everyone. You can use this template for any purpose.
+				</p>
+				<a href="">Detail</a>
+			</div>
+		</div>
 		<div class="footer"></div>
 	</div>
 </body>

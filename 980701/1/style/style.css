@@ -27,9 +27,7 @@ body{
 .navdiv{
 	position: relative;
 	float: left;
-	width: 784px;
 	text-align: right;
-	height: 100px;
 }
 .navdiv ul{
 	list-style: none;
@@ -44,7 +42,6 @@ body{
 	color: #fd7e11;
 	display: inline-block;
 	font-size: 15px;
-	
 	width: 100px;
 	height: 30px;
 	line-height: 25px;
