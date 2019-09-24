@@ -3,82 +3,18 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
-	<style>
-		body{
-			margin: 0px;
-			padding: 0px;
-			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-			font-size: 13.5px;
-		}
-		.main{
-			position: relative;
-			margin-left: auto;
-			margin-right: auto;
-			width: 500px;
-			height: 750px;
-		}
-		
-		.header{
-			position: relative;
-			float: left;
-			width: 500px;
-		}
-		.sidebar{
-			position: relative;
-			float: left;
-			width: 150px;
-			margin-left: 0px;
-			height: 580px;
-		}
-		.content{
-			position: relative;
-			float: left;
-			margin-left: 15px;
-			width: 310px;
-			text-align: justify;
-  			text-justify: inter-word;
-		}
-		.content a{
-			background: #DB6723;
-			color: white;
-			font-size: 16px;
-		}
-		.content a:hover{
-			color:black;
-			text-decoration: none;
-		}
-		.footer{
-			position: relative;
-			float: left;
-			width: 500px;
-			text-align: center;
-			color: darkgray;
-		}
-		.footer a{
-			color: darkgray;
-		}
-		.footer a:hover{
-			color:black;
-			text-decoration: underline;
-		}
-		a {
-			text-decoration: none;
-		}
-	</style>
-	
+	<link href="../CSS/EX-008.css" rel="stylesheet">
 </head>
 
 <body>
-	
 	<div class=main> 
-	
 		<div class=header>
-		<h2><a style="color:black" href="#" >Website Title - Slogan of your website  </a></h2> 
+		<h2><a style="color:black; text-decoration: underline" href="#" >Website Title - Slogan of your website  </a></h2> 
 		<img alt="header" src="Image/h1.png">
 		</div>
 		
 	<div class=sidebar>
-		<a href="#">Categories :</a>
+		<a  class="link" href="#">Categories :</a>
 		<ul>
 		<li> <a href="#"> World Politics  </a></li>
 			<li> <a href="#">Europe Sport</a> </li>
@@ -87,7 +23,7 @@
 			<li> <a href="#">SuperCool </a></li>
 			<li> <a href="#">Last Category </a></li>
 		</ul>
-		<a href="#">Archives :</a>
+		<a class="link" href="#">Archives :</a>
 		<ul>
 			<li><a href="#">January 2007</a></li>
 			<li><a href="#">February 2007</a></li>
@@ -106,14 +42,15 @@
 		</div>
 	<div class=content>
 		
-			<a href="#"> License and terms of use </a>
+			<a class="link" href="#"> License and terms of use </a>
 			<p>Rising Sun Rounded is a CSS template that is free and fully standards compliant. Free CSS templates designed this template. This template is allowed for all uses, including commercial use, as it is released under the <b>Creative Commons Attributions 2.5  </b>license. The only stipulation to the use of this free template is that the links appearing in the footer remain intact. Beyond that, simply enjoy and have fun with it!</p>
 			<img alt="flower" src="Image/f1.png" style="margin-left: 20px">
 			<p>Donec nulla. Aenean eu augue ac nisl tincidunt rutrum. Proin erat justo, pharetra eget, posuere at, malesuada et, nulla. Donec pretium nibh sed est faucibus suscipit. Nunc nisi. Nullam vehicula. In ipsum lorem, bibendum sed, consectetuer et, gravida id, erat. Ut imperdiet, leo vel condimentum faucibus, risus justo feugiat purus, vitae congue nulla diam non urna.</p>
-			<a href="#">Example of heading 2</a> 
+			<a class="link" href="#">Example of heading 2</a> 
 			<p> Donec nulla. Aenean eu augue ac nisl tincidunt rutrum. Proin erat justo, pharetra eget, posuere at, malesuada et, nulla. Donec pretium nibh sed est faucibus suscipit. Nunc nisi. Nullam vehicula. In ipsum lorem, bibendum sed, consectetuer et, gravida id, erat. Ut imperdiet, leo vel condimentum faucibus, risus justo feugiat purus, vitae congue nulla diam non urna.</p>
 		</div>
 	<div class=footer>Designed by <a href="#">Free CSS Templates,</a> Thanks to <a href="#"> custom web design</a></div>
 	</div>
+	<div/>
 </body>
 </html>

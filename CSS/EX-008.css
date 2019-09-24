@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+			margin: 0px;
+			padding: 0px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-size: 13.5px;
+		}
+		.main{
+			position: relative;
+			margin-left: auto;
+			margin-right: auto;
+			width: 500px;
+			height: 750px;
+		}
+		
+		.header{
+			position: relative;
+			float: left;
+			width: 500px;
+		}
+		.sidebar{
+			position: relative;
+			float: left;
+			width: 150px;
+			margin-left: 0px;
+			height: 580px;
+		}
+		.sidebar a{
+			color: #DB6723;
+			font-size: 15px; 
+
+		}
+		.sidebar a:hover{
+			color:black;
+			text-decoration: none;
+		}
+		.content{
+			position: relative;
+			float: left;
+			margin-left: 15px;
+			width: 310px;
+			text-align: justify;
+  			text-justify: inter-word;
+		}
+		.content a{
+			background: #DB6723;
+			color: white;
+			font-size: 16px;
+		}
+		.content a:hover{
+			color:black;
+			text-decoration: none;
+		}
+		.footer{
+			position: relative;
+			float: left;
+			width: 500px;
+			text-align: center;
+			color: darkgray;
+		}
+		.footer a{
+			color: darkgray;
+		}
+		.footer a:hover{
+			color:black;
+			text-decoration: underline;
+		}
+		a {
+			text-decoration: none;
+		}
+		.link {
+			background: #DB6723;
+			color: white !important;
+			font-size: 16px;
+		}
