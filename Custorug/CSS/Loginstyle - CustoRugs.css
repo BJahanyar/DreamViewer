@@ -8,7 +8,6 @@ body{
 			  box-sizing: border-box;
 			}	
 		.main{
-			margin-top: 1%;
 			float: left;
 			position: relative;
 			margin-left: auto;
@@ -16,52 +15,21 @@ body{
 			padding-left: 0% !important;
 			padding-right: 0% !important;
 		}
-		
-		.nav1 {
-			width: 25%;
+		.header{
 			position: relative;
-			float: left;
-			font-size: 25;
-			text-align: right;
-			margin-left: 5%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+
+		.nav1{
 			
 		}
-		.nav2 {
-			width: 40%;
-			position: relative;
-			float: left;
-			text-align: center;
+		.nav2{
+
 		}
-		.navbar ul{
-			list-style: none;
-			padding: 0%;
-			margin: 0%;
-		}
-		.menu>li{
-			display: inline-block;
-		}
-		.nav2 a{
-			margin-top: 5%;
-			text-decoration: none;
-			color: black;
-			display: inline-block;
-			width: 90px;
-			padding: 6% 0%;
-			text-align: center;
-		}
-		.nav2 li:hover>a{
-			background:rgba(231,223,223,1.00);		}
-	
-		.nav3 {
-			text-decoration: none;
-			text-align: center;
-			padding: 2% 0%;
-			color:#FFFFFF;
-			background-color:rgba(19,146,38,1.00);
-			width: 10%;
-			float: left;
-			position: relative;
-			margin-right: 15%;
+		.nav3{
+
 		}
 		.footerdiv {
 			position: relative;
