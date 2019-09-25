@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+			font-size: 13.5px;
+			background: url("../CSS/images-EX009/tooplate_body.jpg");
+			margin: 0px;
+		}
+		.main{
+			width: 968px;
+			padding:0px 6px;
+			margin: 0px auto;
+		}
+		.header{
+		width: 968px;
+		height: 100px;
+		position: relative;
+		float: left;
+		background: url("../CSS/images-EX009/tooplate_header.png")no-repeat center bottom;
+			
+		}
+		.logo{
+		position: relative;
+		float: left;
+		width: 184px;
+		background: url('../CSS/images-EX009/tooplate_logo.png') no-repeat center center;
+		height: 100px;
+		margin-left: 40px;
+		}
+		.menu{
+			position: relative;
+			float: right;
+			text-align: right;
+			width: 744px;
+			height: 100px;
+		}
+		.menu ul{
+			list-style: none;
+			margin: 40px 20px 0px 0px;
+		}
+		.menu li{
+			display: inline;
+		}
+		.menu a{
+			color: #fc8927;
+			text-decoration: none;
+			width: 100px;
+			height: 30px;
+			font-size: 15px;
+			line-height: 25px;
+			display: inline-block;
+			text-align: center;
+			margin: 10px;
+		}
+		.menu a:hover, .active{
+			background: url("../CSS/images-EX009/tooplate_menu.png") no-repeat center center;
+			color: rgba(70,70,70,1.00) !important;
+		}
+		.group{
+			position: relative;
+			float: left;
+			width: 968px;
+			background: url("../CSS/images-EX009/tooplate_main.png") repeat-y;
+		}
+		.slide{
+			position: relative;
+			float: left;
+			width: 940px;
+			height: 300px;
+			margin: 0px 15px;
+			background: url("../CSS/images-EX009/tooplate_middle.png") no-repeat center center;
+		}
+		.st1{
+			position: relative;
+			float: left;
+			width: 220px;
+			height: 140px;
+			margin: 75px 45px;
+		}
+		.st1 h1{
+			color: #fc8927;
+			padding-left: 13px;
+		}
+		.st1 p{
+			color: white;
+			padding: 13px;
+		}
+		.st2{
+			position: relative;
+			float: left;
+			width: 220px;
+			height: 140px;
+			margin: 75px 15px;
+		}
+		.st2 h1{
+			color: #fc8927;
+			padding-left: 13px;
+		}
+		.st2 p{
+			color: white;
+			padding: 13px;
+		}
+		.st3{
+			position: relative;
+			float: left;
+			width: 220px;
+			height: 140px;
+			margin: 45px 80px;
+		}
+		.st3 h1{
+			color: white;
+			line-height: 10px;
+		}
+		.st3 h2{
+			color: white;
+			line-height: 10px;
+		}
+		.st3 p{
+			color: black;
+			padding: 13px;
+			text-align: justify;
+		}
+		.btn{
+			width: 242px;
+			height: 50px;
+			background: url("../CSS/images-EX009/tooplate_learn_here_btn.png") no-repeat;
+		}
+		.btn a{
+			text-decoration: none;
+			color:rgba(46,46,46,1.00);
+			font-size: 30px;
+			margin: 20px 48px;
+		}
+		.btn a:hover{
+			color:  #fc8927;
+		}
+		.box1{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 10px 20px;
+		}
+		.box1 img{
+			display: block;
+			float: left;
+		}
+		.detail a{
+			text-decoration: none;
+			color: black;
+			margin: 0px 19px;
+		}
+		.detail a:hover{
+			color: #fc8927;
+		}
+		.detail{
+			width: 71px;
+			height: 24px;
+			background: url("../CSS/images-EX009/more_btn.png") no-repeat;
+		}
+		.box2{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 10px 20px;
+		}
+		.box2 img{
+			display: block;
+			float: left;
+		}
+		.box3{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 10px 20px;
+		}
+		.box3 img{
+			display: block;
+			float: left;
+		}
+		.box4{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 10px 20px;
+		}
+		.box4 img{
+			display: block;
+			float: left;
+		}
+		.box5{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 10px 20px;
+		}
+		.box5 img{
+			display: block;
+			float: left;
+		}
+		.box6{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 10px 20px 40px;
+		}
+		.box6 img{
+			display: block;
+			float: left;
+		}
+		.hr{
+			position: relative;
+			float: left;
+			width: 968px;
+			padding: 20px 20px;
+			background: url("../CSS/images-EX009/tooplate_divider.png") repeat-x;
+		}
+		.pro1{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 0px 20px;
+		}
+		.pro2{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 0px 20px;
+		}
+		.pro3{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 0px 20px;
+		}
+		.footer{
+			position: relative;
+			float: left;
+			background: url("../CSS/images-EX009/tooplate_footer.png") no-repeat;
+			height: 100px;
+			width: 968px;
+		}
+		.footer p{
+			text-align: center;
+			margin: 80px 0px;
+		}
+		

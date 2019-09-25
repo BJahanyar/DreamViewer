@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+		body{
+			font-size: 13.5px;
+			background: url("../CSS/images-EX009/tooplate_body.jpg");
+			margin: 0px;
+		}
+		.main{
+			width: 968px;
+			padding:0px 6px;
+			margin: 0px auto;
+		}
+		.header{
+		width: 968px;
+		height: 100px;
+		position: relative;
+		float: left;
+		background: url("../CSS/images-EX009/tooplate_header.png")no-repeat center bottom;
+			
+		}
+		.logo{
+		position: relative;
+		float: left;
+		width: 184px;
+		background: url('../CSS/images-EX009/tooplate_logo.png') no-repeat center center;
+		height: 100px;
+		margin-left: 40px;
+		}
+		.menu{
+			position: relative;
+			float: right;
+			text-align: right;
+			width: 744px;
+			height: 100px;
+		}
+		.menu ul{
+			list-style: none;
+			margin: 40px 20px 0px 0px;
+		}
+		.menu li{
+			display: inline;
+		}
+		.menu a{
+			color: #fc8927;
+			text-decoration: none;
+			width: 100px;
+			height: 30px;
+			font-size: 15px;
+			line-height: 25px;
+			display: inline-block;
+			text-align: center;
+			margin: 10px;
+		}
+		.menu a:hover, .active{
+			background: url("../CSS/images-EX009/tooplate_menu.png") no-repeat center center;
+			color: rgba(70,70,70,1.00) !important;
+		}
+		.group{
+			position: relative;
+			float: left;
+			width: 968px;
+			background: url("../CSS/images-EX009/tooplate_main.png") repeat-y;
+		}
+	
+	
+	
+	
+		.detail a{
+			text-decoration: none;
+			color: black;
+			margin: 0px 19px;
+		}
+		.detail a:hover{
+			color: #fc8927;
+		}
+		.detail{
+			width: 71px;
+			height: 24px;
+			background: url("../CSS/images-EX009/more_btn.png") no-repeat;
+		}
+		.hr{
+			position: relative;
+			float: left;
+			width: 968px;
+			padding: 20px 20px;
+			background: url("../CSS/images-EX009/tooplate_divider.png") repeat-x;
+		}
+		.pro1{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 0px 20px;
+		}
+		.pro2{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 0px 20px;
+		}
+		.pro3{
+			position: relative;
+			float: left;
+			width: 280px;
+			padding: 0px 20px;
+		}
+		.footer{
+			position: relative;
+			float: left;
+			background: url("../CSS/images-EX009/tooplate_footer.png") no-repeat;
+			height: 100px;
+			width: 968px;
+		}
+		.footer p{
+			text-align: center;
+			margin: 80px 0px;
+		}
+		.box1{
+			position: relative;
+			float: left;
+			margin: 0px 20px;
+		}
+		.box2{
+			position: relative;
+			float: left;
+			height: 200px;
+		}
+		.box2 img{
+			display: block;
+			float: left;
+			margin: 50px 20px !important;
+			
+		}
+		.box2 h1{
+			margin: 50px 0px 20px;
+		
+		}
+	.box3 li{
+		color: #fc8927;
+		list-style-image: url("../CSS/images-EX009/tooplate_list.png");
+		line-height: 25px;
+	}
