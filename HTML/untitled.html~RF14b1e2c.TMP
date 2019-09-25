@@ -203,18 +203,11 @@
 			position: relative;
 			float: left;
 			width: 280px;
-			padding: 10px 20px 40px;
+			padding: 10px 20px;
 		}
 		.box6 img{
 			display: block;
 			float: left;
-		}
-		.hr{
-			position: relative;
-			float: left;
-			width: 968px;
-			padding: 20px 20px;
-			background: url("../CSS/images-EX009/tooplate_divider.png") repeat-x;
 		}
 		.pro1{
 			position: relative;
@@ -234,18 +227,6 @@
 			width: 280px;
 			padding: 0px 20px;
 		}
-		.footer{
-			position: relative;
-			float: left;
-			background: url("../CSS/images-EX009/tooplate_footer.png") no-repeat;
-			height: 100px;
-			width: 968px;
-		}
-		.footer p{
-			text-align: center;
-			margin: 80px 0px;
-		}
-		
 	</style>
 </head>
 
@@ -255,7 +236,7 @@
 			<div class="logo"></div>
 			<div class="menu">
 				<ul>
-					<li><a class="active" href="#">Home</a></li>
+					<li class="active"><a href="#">Home</a></li>
 					<li><a href="#">Aboute Us</a></li>
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Gallery</a></li>
@@ -292,7 +273,7 @@
 				<h1>Intoduction</h1>
 				<img alt="" title="" src="../CSS/images-EX009/onebit_08.png">
 				<p>
-					Service Box is a <a style="color:#fc8927 " href="#">free website template</a> for everyone. You can use this template for any purpose.
+					Service Box is a free website template for everyone. You can use this template for any purpose.
 				</p>
 				<div class="detail">
 				<a href="">Detail</a>
@@ -302,7 +283,7 @@
 				<h1>Marketing</h1>
 				<img alt="" title="" src="../CSS/images-EX009/onebit_15.png">
 				<p>
-					Credit goes to <a style=" color:#fc8927 " href="#">icojoy.com </a> for Onebit icons. tooplate provides free HTML CSS templates for everyone.
+					Credit goes to icojoy.com for Onebit icons. tooplate provides free HTML CSS templates for everyone.
 				</p>
 				<div class="detail">
 				<a href="">Detail</a>
@@ -312,7 +293,7 @@
 				<h1>Advertising</h1>
 				<img alt="" title="" src="../CSS/images-EX009/onebit_16.png">
 				<p>
-					Curabitur sed lectus id erat viverra consectetur nec in sapien. Etiam vitae. Validate <a style="color:#fc8927 " href="#">XHTML</a> and <a style=" color:#fc8927 " href="#">CSS</a>.
+					Curabitur sed lectus id erat viverra consectetur nec in sapien. Etiam vitae. Validate XHTML and CSS.
 				</p>
 				<div class="detail">
 				<a href="">Detail</a>
@@ -348,9 +329,7 @@
 				<a href="">Detail</a>
 				</div>
 			</div>
-			<div class="hr">
-			</div>
-			<h1 style="padding:0px 20px; margin-bottom: 5px"> Latest Projects </h1>
+			<h1 style="padding:0px 20px; margin-bottom: 0px"> Latest Projects </h1>
 			<div class="pro1">
 			<img src="../CSS/images-EX009/tooplate_image_01.jpg">
 			<p>
@@ -379,9 +358,7 @@
 			</div>
 			</div>
 		</div>
-		<div class="footer">
-			<p>Copyright © 2048 <a style=" color:#fc8927 " href="#">Company Name</a></p>
-		</div>
+		<div class="footer"></div>
 		
 	</div>
 </body>
