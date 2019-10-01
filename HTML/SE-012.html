@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.group{
+			position: relative;
+			margin: 0px auto;
+		}
+		.box{
+			
+			position: relative;
+			float: left;
+			height: 250px;
+		}
+		.myred{ 
+			background: red;
+		}
+		.myorang{
+			background: rgba(232,88,48,1.00);
+		}
+		.myyellow {
+			background: yellow;
+		}
+		.mypink{
+			background: rgba(217,37,205,1.00);
+		}
+		.mygreen{
+			background: green;			
+		}
+		.myblack{
+			background: black;
+		}
+		@media all  and (max-width:599px){
+			.group{
+				width: 100% ;
+			}
+			.box{
+				width: 100% ;
+			}
+		}
+		@media all  and (min-width:600px) and (max-width:979px){
+			.group{
+				width: 100% ;
+			}
+			.box{
+				width: 50% ;
+			}
+		}
+		@media all  and (min-width:980px) and (max-width:1199px){
+			.group{
+				width: 980px ;
+			}
+			.box{
+				width: 16.6666666666666% ;
+			}
+		}
+		@media all  and (min-width:1200px) {
+			.group{
+				width: 1200px ;
+			}
+			.box{
+				width: 16.6666666666666% ;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="group" >
+		<div class="box myred"></div>
+		<div class="box mypink"></div>
+		<div class="box myyellow"></div>
+		<div class="box myorang"></div>
+		<div class="box mygreen"></div>
+		<div class="box myblack"></div>
+	</div>
+	
+</body>
+</html>

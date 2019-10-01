@@ -1,6 +1,9 @@
-@charset "utf-8";
-/* CSS Document */
-		body{
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+	body{
 			font-size: 13.5px;
 			background: url("../CSS/images-EX009/tooplate_body.jpg");
 			margin: 0px;
@@ -61,9 +64,19 @@
 			width: 968px;
 			background: url("../CSS/images-EX009/tooplate_main.png") repeat-y;
 		}
-	
-	
-	
+		.blk1{
+			position: relative;
+			float: left;
+			width: 940px;
+		}
+		.blk1 img{
+			position: relative;
+			float: left;
+			padding: 20px;
+		}
+		.blk1 p{
+			line-height: 30px;	
+		}
 	
 		.detail a{
 			text-decoration: none;
@@ -78,58 +91,7 @@
 			height: 24px;
 			background: url("../CSS/images-EX009/more_btn.png") no-repeat;
 		}
-		.hr{
-			position: relative;
-			float: left;
-			width: 968px;
-			padding: 20px 20px;
-			background: url("../CSS/images-EX009/tooplate_divider.png") repeat-x;
-		}
-		.pro1{
-			position: relative;
-			float: left;
-			width: 280px;
-			padding: 0px 20px;
-		}
-		.pro2{
-			position: relative;
-			float: left;
-			width: 280px;
-			padding: 0px 20px;
-		}
-		.pro3{
-			position: relative;
-			float: left;
-			width: 280px;
-			padding: 0px 20px;
-		}
-		
-		.box1{
-			position: relative;
-			float: left;
-			margin: 0px 20px;
-		}
-		.box2{
-			position: relative;
-			float: left;
-			height: 200px;
-		}
-		.box2 img{
-			display: block;
-			float: left;
-			margin: 50px 20px !important;
-			
-		}
-		.box2 h1{
-			margin: 50px 0px 20px;
-		
-		}
-	.box3 li{
-		color: #fc8927;
-		list-style-image: url("../CSS/images-EX009/tooplate_list.png");
-		line-height: 25px;
-	}
-	.footer{
+		.footer{
 			position: relative;
 			float: left;
 			background: url("../CSS/images-EX009/tooplate_footer.png") no-repeat;
@@ -140,3 +102,44 @@
 			text-align: center;
 			margin: 80px 0px;
 		}
+
+</style>
+</head>
+
+<body>
+	<body>
+	<div class="main">
+		<div class="header">
+			<div class="logo"></div>
+			<div class="menu">
+				<ul>
+					<li><a href="untitled.html">Home</a></li>
+					<li><a href="AboutUs.html">About Us</a></li>
+					<li><a class="active" href="blog.html">Blog</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="group">
+		<div class="blk1">
+			<img src="../CSS/images-EX009/tooplate_image_06.jpg">
+			<h1>Lorem ipsum dolor sit amet</h1>
+			<p>Posted in <a style=" color:#fc8927 " href="#">CSS Templates</a>, <a style=" color:#fc8927 " href="#">Web Design</a> | <a style=" color:#fc8927 " href="#">128 comments</a></p>
+
+			<p>Vestibulum adipiscing tempus elit eu condimentum. Fusce at mi felis. Etiam sed velit nibh. Nunc bibendum justo nec eros elementum auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Validate <a style=" color:#fc8927 " href="#">XHTML</a> and <a style=" color:#fc8927 " href="#">CSS</a>.</p>
+			<div class="detail">
+				<a href="">More</a>
+			</div>
+		</div>
+		</div>
+		<div class="blk2"></div>
+		<div class="blk3"></div>
+		<div class="footer">
+			<p>Copyright © 2048 <a style=" color:#fc8927 " href="#">Company Name</a></p>
+		</div>
+		
+	</div>
+		
+</body>
+</html>
