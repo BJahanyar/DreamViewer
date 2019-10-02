@@ -8,46 +8,39 @@
 			background: url("../CSS/Image/nature.jpg") no-repeat center center;
 			height: 300px;
 		}
-		.row1{
-			position: relative;
-			float: left;
-			text-align: center;
-			height: 200px;
-		}
 		.crs1
 		{
 			position: relative;
 			float: left;
+			height: 150px;
 		}
 		.crs2
 		{
 			position: relative;
 			float: left;
+			height: 150px;
 		}
 		.crs3
 		{
 			position: relative;
 			float: left;
-		}
-		.row2{
-			position: relative;
-			float: left;
-			height: 130px;
-			text-align: center;
+			height: 150px;
 		}
 		.notification{
 			position: relative;
 			float: left;
+			height: 150px;
 		}
 		.news{
 			position: relative;
 			float: left;
+			height: 150px;
 		}
 		.pic{
 			position: relative;
 			float: left;
-			background: url("../CSS/Image/IT.png") no-repeat center center;
-			height: 300px;
+			background: url("../CSS/Image/IT.png") no-repeat center center cover;
+			height: 40vh;
 		}
 		.footer{
 			position: relative;
@@ -63,10 +56,19 @@
 			.hedear{
 				width: 100%;
 			}
-			.row1{
+			.crs1{
 				width: 100%;
 			}
-			.row2{
+			.crs2{
+				width: 100%;
+			}
+			.crs3{
+				width: 100%;
+			}
+			.notification{
+				width: 100%;
+			}
+			.news{
 				width: 100%;
 			}
 			.pic{
@@ -77,16 +79,22 @@
 			}
 }
 		@media all  and (min-width:600px) and (max-width:979px){
+			.main{
+				width: 100%;
+			}
 			.hedear{
 				width: 100%;
 			}
-			.row1{
-				width: 100%;
+			.crs1{
+				width: 33.333333%;
 			}
-			.crs{
-				
+			.crs2{
+				width: 33.3333333%;
 			}
-			.row2{
+			.crs3{
+				width: 33.3333333%;
+			}
+			.notification{
 				width: 100%;
 			}
 			.pic{
@@ -97,30 +105,25 @@
 			}
 }
 		@media all  and (min-width:980px) and (max-width:1199px){
-				.hedear{
-				width: 100%;
+			.main{
+				width: 980px;
 			}
-			.row1{
-				width: 100px;
-			}
-			.row2{
-				width: 50%;
-			}
-			.pic{
-				width: 100%;
-			}
-			.footer{
-				width: 100%;
-			
-}
-		@media all  and (min-width:1200px){
 			.hedear{
 				width: 100%;
 			}
-			.row1{
-				width: 100px;
+			.crs1{
+				width: 33.333333%;
 			}
-			.row2{
+			.crs2{
+				width: 33.3333333%;
+			}
+			.crs3{
+				width: 33.3333333%;
+			}
+			.notification{
+				width: 50%;
+			}
+			.news{
 				width: 50%;
 			}
 			.pic{
@@ -128,4 +131,32 @@
 			}
 			.footer{
 				width: 100%;
+			}
 }
+		@media all  and (min-width:1200px)
+			.main{
+				width: 1200px;
+			}
+			.hedear{
+				width: 100%;
+			}
+			.crs1{
+				width: 33.333333%;
+			}
+			.crs2{
+				width: 33.3333333%;
+			}
+			.crs3{
+				width: 33.3333333%;
+			}
+			.notification{
+				width: 50%;
+			}
+			.pic{
+				width: 50%;
+			}
+			.footer{
+				width: 100%;
+			}
+}
+
