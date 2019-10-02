@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+		.main{
+			position: relative;
+			margin: 0px auto;
+		}
+		.hedaer{
+			background: url("../CSS/Image/nature.jpg") no-repeat center center;
+			height: 300px;
+		}
+		.row1{
+			position: relative;
+			float: left;
+			text-align: center;
+			height: 200px;
+		}
+		.crs1
+		{
+			position: relative;
+			float: left;
+		}
+		.crs2
+		{
+			position: relative;
+			float: left;
+		}
+		.crs3
+		{
+			position: relative;
+			float: left;
+		}
+		.row2{
+			position: relative;
+			float: left;
+			height: 130px;
+			text-align: center;
+		}
+		.notification{
+			position: relative;
+			float: left;
+		}
+		.news{
+			position: relative;
+			float: left;
+		}
+		.pic{
+			position: relative;
+			float: left;
+			background: url("../CSS/Image/IT.png") no-repeat center center;
+			height: 300px;
+		}
+		.footer{
+			position: relative;
+			float: left;
+			height: 100px;
+			text-align: center;
+			padding: 40px;
+		}
+		@media all  and (max-width:599px){
+			.main{
+				width: 100%;
+			}
+			.hedear{
+				width: 100%;
+			}
+			.row1{
+				width: 100%;
+			}
+			.row2{
+				width: 100%;
+			}
+			.pic{
+				width: 100%;
+			}
+			.footer{
+				width: 100%;
+			}
+}
+		@media all  and (min-width:600px) and (max-width:979px){
+			.hedear{
+				width: 100%;
+			}
+			.row1{
+				width: 100%;
+			}
+			.crs{
+				
+			}
+			.row2{
+				width: 100%;
+			}
+			.pic{
+				width: 100%;
+			}
+			.footer{
+				width: 100%;
+			}
+}
+		@media all  and (min-width:980px) and (max-width:1199px){
+				.hedear{
+				width: 100%;
+			}
+			.row1{
+				width: 100px;
+			}
+			.row2{
+				width: 50%;
+			}
+			.pic{
+				width: 100%;
+			}
+			.footer{
+				width: 100%;
+			
+}
+		@media all  and (min-width:1200px){
+			.hedear{
+				width: 100%;
+			}
+			.row1{
+				width: 100px;
+			}
+			.row2{
+				width: 50%;
+			}
+			.pic{
+				width: 100%;
+			}
+			.footer{
+				width: 100%;
+}
