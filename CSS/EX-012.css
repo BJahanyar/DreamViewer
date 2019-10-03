@@ -1,37 +1,43 @@
 @charset "utf-8";
 /* CSS Document */
+		body,div,footer,header{
+			box-sizing: border-box;
+		}
 		.main{
 			position: relative;
 			margin: 0px auto;
 		}
 		.hedaer{
-			background: url("../CSS/Image/nature.jpg") no-repeat center center;
-			height: 300px;
+			position: relative;
+			float: left;
 		}
-		.crs1
+		.hedaer img{
+			width: 100%;
+		}
+		.row1{
+			position: relative;
+			margin: 0px auto;
+		}
+		.crs
 		{
+			background: green;
 			position: relative;
 			float: left;
 			height: 150px;
 		}
-		.crs2
-		{
+		.row2{
 			position: relative;
-			float: left;
-			height: 150px;
+			margin: 0px auto;
 		}
-		.crs3
+		.notification
 		{
-			position: relative;
-			float: left;
-			height: 150px;
-		}
-		.notification{
+			background: pink;
 			position: relative;
 			float: left;
 			height: 150px;
 		}
 		.news{
+			background: #8014C8;
 			position: relative;
 			float: left;
 			height: 150px;
@@ -39,124 +45,56 @@
 		.pic{
 			position: relative;
 			float: left;
-			background: url("../CSS/Image/IT.png") no-repeat center center cover;
-			height: 40vh;
+			height: auto;
+		}
+		.pic img{
+			width: 100%;
 		}
 		.footer{
+			background: #5E9C7C;
 			position: relative;
 			float: left;
-			height: 100px;
+			height: 50px;
 			text-align: center;
-			padding: 40px;
 		}
-		@media all  and (max-width:599px){
-			.main{
-				width: 100%;
-			}
-			.hedear{
-				width: 100%;
-			}
-			.crs1{
-				width: 100%;
-			}
-			.crs2{
-				width: 100%;
-			}
-			.crs3{
-				width: 100%;
-			}
-			.notification{
-				width: 100%;
-			}
-			.news{
-				width: 100%;
-			}
-			.pic{
-				width: 100%;
-			}
-			.footer{
-				width: 100%;
-			}
-}
-		@media all  and (min-width:600px) and (max-width:979px){
-			.main{
-				width: 100%;
-			}
-			.hedear{
-				width: 100%;
-			}
-			.crs1{
-				width: 33.333333%;
-			}
-			.crs2{
-				width: 33.3333333%;
-			}
-			.crs3{
-				width: 33.3333333%;
-			}
-			.notification{
-				width: 100%;
-			}
-			.pic{
-				width: 100%;
-			}
-			.footer{
-				width: 100%;
-			}
-}
-		@media all  and (min-width:980px) and (max-width:1199px){
-			.main{
-				width: 980px;
-			}
-			.hedear{
-				width: 100%;
-			}
-			.crs1{
-				width: 33.333333%;
-			}
-			.crs2{
-				width: 33.3333333%;
-			}
-			.crs3{
-				width: 33.3333333%;
-			}
-			.notification{
-				width: 50%;
-			}
-			.news{
-				width: 50%;
-			}
-			.pic{
-				width: 100%;
-			}
-			.footer{
-				width: 100%;
-			}
-}
-		@media all  and (min-width:1200px)
-			.main{
-				width: 1200px;
-			}
-			.hedear{
-				width: 100%;
-			}
-			.crs1{
-				width: 33.333333%;
-			}
-			.crs2{
-				width: 33.3333333%;
-			}
-			.crs3{
-				width: 33.3333333%;
-			}
-			.notification{
-				width: 50%;
-			}
-			.pic{
-				width: 50%;
-			}
-			.footer{
-				width: 100%;
-			}
-}
+		@media all and (max-width:599px){
+			.hedaer{width: 100%;}
+			.row1{width: 100%;}
+			.crs{width: 100%;}
+			.notification{width: 100%;}
+			.row2{width: 100%;}
+			.news{width: 100%;}
+			.pic{width: 100%;}
+			.footer{width: 100%;}
+		}
+		@media all and (min-width:600px) and (max-width:979px){
+			.hedaer{width:100%;}
+			.row1{width:100%;}
+			.crs{width:33.3333333%;}
+			.row2{width:100%;}
+			.notification{width:100%;}
+			.news{width:100%;}
+			.pic{width:100%;}
+			.footer{width:100%;}
+		}
+		@media all and (min-width:980px) and (max-width:1199px){
+			.hedaer{width:980px;}
+			.row1{width:100%;}
+			.crs{width:33.3333333%;}
+			.row2{width:100%;}
+			.notification{width: 50%;}
+			.news{width: 50%;}
+			.pic{width:100%;}
+			.footer{width:100%;}
+		}
+		@media all and (min-width:1200px){
+			.hedaer{width:1200px;}
+			.row1{width:100%;}
+			.crs{width:33.3333333%;}
+			.row2{width:100%;}
+			.notification{width: 50%;}
+			.news{width: 50%;}
+			.pic{width:100%;}
+			.footer{width:100%;}
+		}
 
