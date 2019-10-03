@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media all and (max-width:599px){
+	body{
+		font-size: 12.5px;
+	}
+	.container{
+		width: 100%;
+	}
+	.logo{
+		background: black !important;
+		width:25%;
+	}
+	.ltxt{
+		font-size: 12px !important;
+		border: none !important;
+		padding: 0px !important;
+		
+	}
+	.menu{
+		background: black !important;
+		font-size: 12px !important;
+		width: 75%;
+	}
+	.studio{
+		width: 60%;
+	}
+	
+}
+@media all and (min-width:600px) and (max-width:979px){
+	body{
+		font-size: 13px;
+	}
+	.container{
+		width: 100%;
+	}
+	.logo{
+		background: black !important;
+		width:25%;
+	}
+	.ltxt{
+		font-size: 14px !important;
+		border: none !important;
+		padding: 0px !important;
+		
+	}
+	.menu{
+		background: black !important;
+		width: 75%;
+	}
+	.studio{
+		width: 60%;
+	}
+}
+@media all and (min-width:980px) and (max-width:1199px){
+	body{
+		font-size: 14px;
+	}
+	.container{
+		width: 980px;
+	}
+	.logo{
+		border: none !important;
+		width:25%;
+	}
+	.ltxt{
+		width: 90%;
+	}
+	.menu{
+		width: 75%;
+	}
+	.studio{
+		width: 60%;
+	}
+}
+@media all and (min-width:1200px){
+	body{
+		font-size: 14.5px;
+	}
+	.container{
+		width: 1200px;
+	}
+	.logo{
+		width:25%;
+	}
+	.ltxt{
+		width: 70%;
+	}
+	.menu{
+		width: 75%;
+	}
+	.container2{
+		background: black;
+		width: 100%;
+	}
+	.col{
+		width: 100%
+	}
+	.studio{
+		width: 60%;
+	}
+	
+}
+bidy,div,header,footer,nav{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.row{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.container{
+	position: relative;
+	margin: 0px auto;
+}
+.logo, .menu{
+	position: relative;
+	float: left;
+	color: white;
+	padding: 18px 35px 18px 35px;
+}
+.logo{
+	font-weight: bold;
+	font-size: 20px;
+}
+.ltxt{
+	border:thick solid white;
+	padding: 15px 15px;
+	text-align: center;
+	line-height: 20px;
+}
+.menu{
+	color: white;
+	text-align: right;
+}
+.menu ul{
+	list-style-image:none;
+	margin: 3px 6px;
+}
+.menu li{
+	display: inline;
+		}
+.menu a{
+	text-decoration: none;
+	position: relative;
+	color: white;
+	margin: 0px 7px;
+}
+.top{
+	background: url("../images/slider/slide2.jpg") no-repeat;
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	position: relative;
+}
+.sliderbox{
+	color: white;
+	text-align: center;
+	margin-top: 20vh;
+}
+.container2{
+	position: relative;
+	margin: 0px auto;
+}
+.minislider{
+	margin: 0% 10%;
+}
+.col{
+	margin: 25px 8px;
+	width: 17%;
+}
+.studio{
+	position: relative;
+	margin: 15vh auto;
+	border: thick solid black;
+	text-align: center;
+	height: 50vh;
+	padding-top: 10vh;
+}
+.studio h5{
+	color: #D76D2E;
+}
