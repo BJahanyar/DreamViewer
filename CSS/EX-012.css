@@ -1,12 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
+		body, div{
+			box-sizing: border-box;
+		}
 		.main{
 			position: relative;
 			margin: 0px auto;
 		}
 		.hedaer{
+			position: relative;
+			float: left;
 			background: url("../CSS/Image/nature.jpg") no-repeat center center;
-			height: 300px;
+			height: 200px;
 		}
 		.crs1
 		{
@@ -14,7 +19,7 @@
 			float: left;
 			height: 150px;
 		}
-		.crs2
+		.crs2s
 		{
 			position: relative;
 			float: left;
@@ -39,8 +44,8 @@
 		.pic{
 			position: relative;
 			float: left;
-			background: url("../CSS/Image/IT.png") no-repeat center center cover;
-			height: 40vh;
+			background: url("../CSS/Image/IT.png") no-repeat center center ;
+			height: 300px;
 		}
 		.footer{
 			position: relative;
@@ -134,6 +139,7 @@
 			}
 }
 		@media all  and (min-width:1200px)
+		{
 			.main{
 				width: 1200px;
 			}
