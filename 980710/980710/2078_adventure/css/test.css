@@ -1,0 +1,10 @@
+.test{
+	background:url('../images/about-bg.jpg') repeat-y fixed center 0px;
+	width:100%;
+	height:200px;	
+}
+.test2{
+	background:url('../images/plan-bg.jpg') repeat-y fixed center 0px;
+	width:100%;
+	height:200px;
+}

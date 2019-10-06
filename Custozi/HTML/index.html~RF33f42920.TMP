@@ -8,7 +8,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<style>
 		  /* Make the image fully responsive */
 		 .carousel-inner img {
@@ -47,6 +46,8 @@
   </ul>
 </div>
 		</div>
+</nav>
+	
 	
 	<div class="container" >
 	<div id="demo" class="carousel slide" data-ride="carousel">
@@ -84,14 +85,14 @@
 	<div class="container text-center" style="margin-top:10vh">
   <h4>We have a special offer from a group of Iranian artists:</h4> 
 </div>
-	<div class="container text-center" style="margin-top:10vh">
-	  <h4>Make your beloved image beautiful.</h4> 
-		<p>We all have someone we love very much and we want to grow more and more with him.
-	There are only a few important occasions during the year that can make us happy.
-	This time you can be different than ever.
-	Send us your picture so that we can turn it into a beautiful carpet in Iran's "World of Fine Arts".
-	The best Iranian artists will work on it: Graphic artist, Painter artist, Designer artist, Ringer artist, Texture artist, Complete artist and all</p>
-	</div>
+<div class="container text-center" style="margin-top:10vh">
+  <h4>Make your beloved image beautiful.</h4> 
+	<p>We all have someone we love very much and we want to grow more and more with him.
+There are only a few important occasions during the year that can make us happy.
+This time you can be different than ever.
+Send us your picture so that we can turn it into a beautiful carpet in Iran's "World of Fine Arts".
+The best Iranian artists will work on it: Graphic artist, Painter artist, Designer artist, Ringer artist, Texture artist, Complete artist and all</p>
+</div>
 	<div class="jumbotron container text-center" style="margin-bottom:0">
 
 		<ul class="nav justify-content-end ">
@@ -105,10 +106,6 @@
       <a class="nav-link" href="#">Multimedia Content</a>
     </li>
   </ul>
-   <i class="fas fa-bicycle"></i>
-  <i class="fas fa-coffee"></i>
-  <i class="fas fa-car"></i>
-  <i class="fas fa-file"></i>
 </div>
 </body>
 </html>

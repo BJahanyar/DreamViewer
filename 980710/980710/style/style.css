@@ -1,0 +1,160 @@
+@media all and (max-width:599px){
+	body{
+		font-size: 12.5px;
+	}
+	.container{
+		width: 100%;
+	}
+	.logodiv,.navdiv{
+		width: 50%;
+	}
+	.picbackbox{
+		width: 80%;
+	}
+	.col{
+		width: 100%;
+	}
+	.col .box{
+		width: 100% !important;
+		margin: 5px 0px !important;
+	}
+}
+@media all and (min-width:600px) and (max-width:979px){
+	body{
+		font-size: 13px;
+	}
+	.container{
+		width: 100%;
+	}
+	.logodiv,.navdiv{
+		width: 50%;
+	}
+	.picbackbox{
+		width: 80%;
+	}
+	.col{
+		width: 100%;
+	}
+}
+@media all and (min-width:980px) and (max-width:1199px){
+	body{
+		font-size: 14px;
+	}
+	.container{
+		width: 980px;
+	}
+	.logodiv{
+		width:25%;
+	}
+	.navdiv{
+		width: 75%;
+	}
+	.picbackbox{
+		width: 600px;
+	}
+	.col{
+		width: 33.333333333%;
+	}
+}
+@media all and (min-width:1200px){
+	body{
+		font-size: 14.5px;
+	}
+	.container{
+		width: 1200px;
+	}
+	.logodiv{
+		width:25%;
+	}
+	.navdiv{
+		width: 75%;
+	}
+	.picbackbox{
+		width: 600px;
+	}
+	.col{
+		width: 33.333333333%;
+	}
+}
+
+body,div,footer,header,nav{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.row{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.container{
+	position: relative;
+	margin: 0px auto;
+	
+}
+.logodiv,.navdiv{
+	position: relative;
+	float: left;/* agar ghaleb farsi=====>Float:Right*/
+	padding: 8px 6px;
+}
+.logodiv{
+	color: rgba(94,94,94,1.00);
+	font-weight: bold;
+	font-size: 20px;
+}
+.navdiv{
+	text-align: right;
+}
+.picback{
+	background: url('../image/home-bg.jpg') no-repeat center center;
+	background-size: cover;
+	height: 80vh;
+}
+.picbackbox{
+	position: relative;
+	margin: 0px auto;
+	text-align: center;
+	color: #fff;
+	margin-top: 27vh;
+	font-size: 1.3rem !important;
+}
+.picbackbox a{
+	text-decoration: none;
+	padding: 8px 10px; 
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	display: inline-block;
+	margin: 8px auto;
+}
+.picbackbox a:hover{
+	color: #000;
+	background: #fff;
+	transition: all 1s;
+}
+.col{
+	position: relative;
+	float: left;
+}
+.col .box{
+	width: 98%;
+	margin: 5px 1%;
+}
+.col img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
