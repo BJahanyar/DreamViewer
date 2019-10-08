@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../CSS/bootstrap.min.css">
 	<link rel="stylesheet" href="../CSS/inner-style.css">
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="../CSS/fontawesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -21,12 +21,13 @@
 </head>
 
 <body>
-	<div class="container-fluid  p-0 " >
-		<div class="row  justify-content-center bg-top"> 
-			<img  alt="" src="../CSS/image/General/bg-top.png" style="width:100%">
-			<div class="text-top">
-				We Have a Group of Unique Iranian Artist Offering You a Unique Offer </div> 
+	<div class="container-fluid p-0" >
+		<div class="row  justify-content-center"> 
+		<img class="mx-auto img-fluid" alt="" src="../CSS/image/topest.jpg">
+			 
+		</div>
 	</div>
+	
     <div class="container">
 		<div class="row">
 			<div class="col">
@@ -44,13 +45,13 @@
                 <nav class="navbar navbar-expand-sm">
                     <ul class="navbar-nav  ">
                         <li class="nav-item">
-                            <a class="nav-link text-body " href="#">CustoGift</a>
+                            <a class="nav-link text-body font-weight-light" href="#">CustoGift</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-body " href="#">Aboute us</a>
+                            <a class="nav-link text-body font-weight-light" href="#">Aboute us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-body " href="#">Guid</a>
+                            <a class="nav-link text-body font-weight-light" href="#">Guid</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-body font-weight-light" href="#">Contact</a>
@@ -60,8 +61,8 @@
 				
             </div>
 				</div>
-				<div class="col  py-3">
-					<a class="text-dark" href=""> Login / </a> <a  class="text-dark" href=""> Register</a>  
+				<div class="col text-right py-3">
+					<a href=""> Login / </a> <a href=""> Register</a>  
 					</div>
 			</nav>
     </div>
@@ -156,11 +157,11 @@ The best Iranian artists will work on it: Graphic artist, Painter artist, Design
 	
 	<div class=" container-fluid bg-dark ">
         <!-- Footer -->
-        <footer class="page-footer font-small ">
-            <div class="row ">
-                <div class="col-md-9 ">
+        <footer class="container page-footer font-small pt-4">
+            <div class=" row ">
+                <div class="col-md-5 ">
                     <!-- Links -->
-                    <nav class="navbar navbar-expand-sm p-0">
+                    <nav class="navbar navbar-expand-sm">
                         <ul class="navbar-nav  ">
                             <li class="nav-item">
                                 <a class="nav-link text-light font-weight-light" href="#">About Custozi</a>
@@ -178,46 +179,24 @@ The best Iranian artists will work on it: Graphic artist, Painter artist, Design
                     </nav>
                 </div>
                 <!-- Back To Top -->
-                <div class="col-md-3 text-warning mt-2">
-					<a class="text-warning" href="">
-						<div>Back To The Top Of Page</div>
-					</a>
+                <div class="col-md-7 text-light d-flex justify-content-end ">
+                    <div>Back To The Top Of Page</div>
                 </div>
 
             </div>
-			
-            <div class="row ">
-				<div class="col-md-6 text-light">
-					<ul class="list-inline mt-2">
-					<li class="list-inline-item"><a class="text-light" href="" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="instagram">
-                        <i class="fab fa-instagram fa-1x fa-fw"></i>
-                    </a>
-					</li>
-					<li class="list-inline-item"><a class="text-light" href="" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="twitter">
-                        <i class="fab fa-twitter fa-1x fa-fw"></i>
-                    </a>
-					</li>
-					<li class="list-inline-item"><a class="text-light" href="" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="facebook">
-                        <i class="fab fa-facebook fa-1x fa-fw"></i>
-                    </a>
-					</li>
-					</li>
-					<li class="list-inline-item"><a class="text-light" href="" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="pinterest">
-                        <i class="fab fa-pinterest fa-1x fa-fw"></i>
-                    </a>
-					</li>
-				</ul>
-				</div>
+            <!-- Privacy Policy -->
+            <div class="row justify-content-end">
                 <div class="col-md-3 text-light ">
                     <!-- Content -->
-                    <p class="mb-0" > Custozi Gallery </p>
-                    <p class="mt-0">Email: info@Custozi.com </p>
+                    <p class="m-0"> Custozi Gallery </p>
+                    <p class="m-0">Email: info@Custozi.com </p>
                 </div>
-                <div class="col-md-3 text-light  ">
+                <!-- Grid column -->
+                <div class="col-md-2 text-light  pl-0 ">
                     <!-- Content -->
                     <p>Terms and Conditions Privacy Policy and Cookies Term of Use </p>
                 </div>
-				
+				<div class="fa fa-instagram"></div>
             </div>
         </footer> 
     </div>
